@@ -1,27 +1,8 @@
-# MS-STGNN
-## Requirements
-The model is implemented using Python3 with dependencies specified in requirements.txt
-## Data Preparation
-Place the multi-energy load data in the data folder.
-## Model Training
-#sampling 
-
-```
-python train.py
-```
-
-## Citation
-
-```
-@inproceedings{10.5555/3367243.3367303,
-author = {Wu, Zonghan and Pan, Shirui and Long, Guodong and Jiang, Jing and Zhang, Chengqi},
-title = {Graph Wavenet for Deep Spatial-Temporal Graph Modeling},
-year = {2019},
-isbn = {9780999241141},
-publisher = {AAAI Press},
-booktitle = {Proceedings of the 28th International Joint Conference on Artificial Intelligence},
-pages = {1907–1913},
-numpages = {7},
-location = {Macao, China},
-series = {IJCAI'19}
-}
+KAN-TQNet: KAN 增强时频双流多能负荷预测网络
+Project Introduction
+This repository provides the complete open-source implementation of KAN-TQNet, the model proposed in the paper KAN-Enhanced Time-Frequency Dual-Stream Network for Multi-Energy Load Forecasting, which has been submitted to the journal Sustainable Energy Technologies and Assessments.
+KAN-TQNet designs a time-frequency dual-stream architecture for joint electric, cooling and heating load forecasting in integrated energy systems (IES):
+Time stream: Temporal-query-guided KAN encoder to mine complex nonlinear coupling and periodic patterns of multi-energy loads;
+Frequency stream: Wavelet-decomposition-dominated & FFT-assisted spectral modeling module to extract local non-stationary spectral features and global periodic information;
+Multi-scale refinement + Hierarchical Dynamic Aggregation (HDA): Adaptively allocate dominant temporal features for 24/48/72/96 multi-step forecasting tasks.
+Comprehensive experiments on the real ASU IES dataset prove that our model outperforms mainstream state-of-the-art time series models (DLinear, iTransformer, Mamba, TimesNet, etc.) in prediction accuracy, missing-data robustness and model interpretability.
