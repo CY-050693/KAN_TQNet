@@ -1,0 +1,23 @@
+KAN_TQNet first-step forecast plotting summary
+Output resolution: 300 dpi
+Output directory: C:\Users\30217\Desktop\负荷预测（原件）\负荷预测（原件）\paper_figures_300dpi\KAN_TQNet_prediction_error_300dpi
+
+[Horizon 24]
+Electricity: MAE=352.0954, RMSE=509.6232, MeanError=-78.2174, StdError=503.5850
+Cooling: MAE=422.5868, RMSE=563.1699, MeanError=1.6915, StdError=563.1673
+Heating: MAE=50.4698, RMSE=67.8230, MeanError=-5.6953, StdError=67.5835
+
+[Horizon 48]
+Electricity: MAE=433.3290, RMSE=606.7143, MeanError=15.1177, StdError=606.5259
+Cooling: MAE=525.2649, RMSE=701.9963, MeanError=-39.9966, StdError=700.8560
+Heating: MAE=51.6176, RMSE=68.6132, MeanError=0.7888, StdError=68.6087
+
+[Horizon 72]
+Electricity: MAE=353.6568, RMSE=518.7780, MeanError=-64.5153, StdError=514.7509
+Cooling: MAE=403.9615, RMSE=533.1694, MeanError=-91.0575, StdError=525.3362
+Heating: MAE=51.4781, RMSE=67.9255, MeanError=3.8900, StdError=67.8140
+
+[Horizon 96]
+Electricity: MAE=361.7112, RMSE=531.0674, MeanError=-53.3231, StdError=528.3836
+Cooling: MAE=428.1018, RMSE=570.7173, MeanError=64.3740, StdError=567.0751
+Heating: MAE=49.5396, RMSE=67.3525, MeanError=-4.8059, StdError=67.1808

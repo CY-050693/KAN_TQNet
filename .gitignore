@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Training outputs
+output/
+runs/
+logs/
+
+# Models
+*.pth
+*.pt
+*.ckpt
+
+# Large archives
+data.zip
+test_model.zip
+
+# OS
+Thumbs.db
+.DS_Store
