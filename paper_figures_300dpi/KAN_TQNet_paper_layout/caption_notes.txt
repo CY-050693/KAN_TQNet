@@ -1,7 +1,0 @@
-Recommended paper captions
-
-Multi-horizon prediction curves of KAN_TQNet.
-Each row corresponds to a forecasting horizon (24, 48, 72, and 96), and each column corresponds to electricity, cooling, and heating load, respectively. The figure compares the first-step forecast sequence against the ground truth.
-
-Error distributions of first-step forecasts across horizons.
-Each row corresponds to a forecasting horizon (24, 48, 72, and 96), and each column corresponds to electricity, cooling, and heating load, respectively. Histograms and smoothed density curves illustrate the distribution of prediction errors, with vertical lines marking zero error and mean error.
